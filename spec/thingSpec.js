@@ -28,3 +28,9 @@ Describe('thing5', function() {
     Demand(4).toBe(5)
   })
 })
+
+Describe('Tyrells', function() {
+  It('bends the knee', function() {
+    Demand("Lanisters").toBeAVassalOf("Tyrells bend the knee to Lanisters")
+  })
+})
