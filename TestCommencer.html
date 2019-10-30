@@ -5,23 +5,20 @@
     <title>Test Commencer</title>
     <meta name="description" content="It's what I do, drink and test things">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
-
-    <style>
-
-      .pass {
-        color: green;
-      }
-
-      .fail {
-        color: red;
-      }
-    </style>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Stoke:300&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="src/style.css">
   </head>
   <body>
-    <header>Tyrion Tests Your Shit</header>
-    <div id='test-results'>
-    </div>
+    <header>
+      <h1>Tyrion Tests Your Shit</h1>
+      <div class="logo">
+        <img src="./src/crossbow-vector-clipart_800.png" alt="Crossbow Logo">
+      </div>
+    </header>
+    <div id='test-results'></div>
+    <footer>
+      <a href="http://github.com/kevindhanna/tyrion">Tyrion on GitHub</a>
+    </footer>
     <script src="lib/tyrion.js"></script>
     <script src="spec/DemandSpec.js"></script>
     <script src="src/thing.js"></script>
