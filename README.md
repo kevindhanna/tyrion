@@ -13,7 +13,7 @@ There are some test examples in `spec/DemandSpec`.
 
 Add both files to the `TestCommencer.html` file and open it in a browser to see the results.
 Passing tests are green, failing tests are red with a failure description underneath:
-![Imgur](https://i.imgur.com/CVSuhTW.png)
+![Tyrion Output](https://i.imgur.com/bs67hCf.png)
 
 ## Examples
 
